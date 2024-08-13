@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>554</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>531</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <property name="tabsClosable">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actioninsert_widget"/>
+   <addaction name="actionsingal_widget"/>
+   <addaction name="actioninsert_mainwindow"/>
+   <addaction name="actionsingal_Mainwindow"/>
+   <addaction name="actionquit"/>
+  </widget>
+  <action name="actioninsert_widget">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/back-double.png</normaloff>:/icon/image1/back-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>嵌入式Wiget</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionsingal_widget">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/enter-double.png</normaloff>:/icon/image1/enter-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>独立Widget</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actioninsert_mainwindow">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/up-double.png</normaloff>:/icon/image1/up-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>嵌入式Mainwindow</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionsingal_Mainwindow">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/down-double.png</normaloff>:/icon/image1/down-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>独立MainWindow</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionquit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/expand-line-2.png</normaloff>:/icon/image1/expand-line-2.png</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionquit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>325</x>
+     <y>245</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

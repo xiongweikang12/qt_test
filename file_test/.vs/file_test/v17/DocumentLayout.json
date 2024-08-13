@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QT_code\\file_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CppProperties.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\widget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:widget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\widget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:widget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\widget.ui||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:widget.ui||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\file_test.pro||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:file_test.pro||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\QT_code\\file_test\\file_test.pro.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:file_test.pro.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CppProperties.json",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\CppProperties.json",
+              "RelativeDocumentMoniker": "CppProperties.json",
+              "ToolTip": "D:\\QT_code\\file_test\\CppProperties.json",
+              "RelativeToolTip": "CppProperties.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T02:59:25.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "widget.ui",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\widget.ui",
+              "RelativeDocumentMoniker": "widget.ui",
+              "ToolTip": "D:\\QT_code\\file_test\\widget.ui",
+              "RelativeToolTip": "widget.ui",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALrSURBVDhPlVRNT1NBFL0zbaHvtVQxYksbYytSwZCyJGHJ3qUsTVyZsPWHGOPGvTt2/ghjNMYYEyQmYqFSrHlULPS90vfpufM\u002BaIlEvORwZ6b3njl35r4RQRDQ9vY2mab5nIg2hBA\u002B/IWGeOH7vrRtm9LptF\u002Br1R7NzMy8RB5JIYIxwkKhsDFbKkWJ/E8NifwAw\u002BgPa32zL3b3dqlSqQT20P6an8q/wPgph8pWq0XD4VDlpVIpoem60LWc0NkDWS0LaEJjTGpCz2picmJSxef1vMjlcnOng9OH7Xb7Ca9JwzDIdV0VoAwKWHXAqgClLvDDOa8DAmFSSjrpn5BjO9K0zEan03nQ7XaljIMSIBFnNELAm0RjDAe2Q/2hQ1pWIxCQcWiQZVoCZyqbzWZmjFBl/MM\u002Bt3/Q273vVK/N0735BVq8s0jlUpkviDky0vM8AgR7Hwg8qGNApe9jrsoGEyBR7Hy5SKv1OcpMZCgNpNIpEhzi\u002B8wRSC4vAavE9YsUUoGtgw692WnSEGf8eucbHVom/R4M6OCoR0IijoEDxfYQE3LEhNxbqoX4xOPgLz8N\u002BtDaJxtK36PMX5ZFbZBtoWzFxLcD4zwPMeAI4pIVmBy/hiXCsamGlalwkqwlXMoUIcoF/PFLYeNoyT6cJnZ\u002Bfs4ijkRheCnoN1aklET8\u002B0dH9OrjJxoM7XABxnsrASpGqHHEk5xhuOB6Klr1IHC3eINW52pUKkzRyu0qXdN1qly9QkuVWUUcG\u002Bfzx6HOMCbEgnAdR5FyyzCWyiW6v7xEawt1Wlus0/V8jm5NT9PyzcqZQnhuN8dxkIJXI5aawHGjcaT6b8CmY2OARWE\u002BppBcBz84AblDjPF5hf4cbGyIuHgef6pQqPxoH6oFnF5UyiUB4zxWC39WMiv0vJFX5z\u002BMCfH0UbVaTUrm14IfzsDoGpcBjeL45FgRNhoNEpubm7xJptfrPbMs6zH6MCrkQuMW59ZPjG\u002B8WCy\u002BW19fX/kD3sq\u002ByxxwljkAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-07T02:58:02.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "widget.h",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\widget.h",
+              "RelativeDocumentMoniker": "widget.h",
+              "ToolTip": "D:\\QT_code\\file_test\\widget.h",
+              "RelativeToolTip": "widget.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvzEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-07T02:58:02.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "widget.cpp",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\widget.cpp",
+              "RelativeDocumentMoniker": "widget.cpp",
+              "ToolTip": "D:\\QT_code\\file_test\\widget.cpp*",
+              "RelativeToolTip": "widget.cpp*",
+              "ViewState": "AQIAAHgAAAAAAAAAAADwv4YAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T02:58:01.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\QT_code\\file_test\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-07T02:58:00.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "file_test.pro",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\file_test.pro",
+              "RelativeDocumentMoniker": "file_test.pro",
+              "ToolTip": "D:\\QT_code\\file_test\\file_test.pro",
+              "RelativeToolTip": "file_test.pro",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANJSURBVDhPlVQ7bxNBEP52z8497AQwMbYTBAkQCAisCJAQEEFDRUNFSiQqJFp\u002BCEI09HTpKXgUCCgikFAkBAEEhJg4BDtHsGM79j2Z2fM5MRISzN2n2Z2b\u002BXZmdm9FGIZYWFhAs9m8C\u002BCmECIg/VchfxEEgXQcB4lEIhgfH7\u002BezWbvUxykEGEf4dDQ0M18vhAFqoeE6AMekF9sbTYaYmnpK0ZHR8NOx/k0OJi\u002BR\u002BPb7C5LpRI6nQ6PoWmasCxTmJYlLJNgWDQ2hGkyTKETDLIN6Lryt1JpkUqnDm6229fK5fIttslqtQrP85QDCyfCWQeUVoTunMCaAVB5UqLR2IDjurLVbBZXV1ev2rYtZewUgwOpR5EOSfeIA4Sk2Yf7ZRgm7DUba5UqtaslqKdycXEx2U8YJdmV7bP\u002BL6Zh4cDBCUwcnsTEkaMoFEZ4g5gjKX3fB0FEOiCE8CkTpdU8svOCKnPOlB4uWSNIIRFSxmRnjlDGTsqRSmx7DcwtPyY8wpf1d2i5G/ACDw23DsfvEFVAcxf25g\u002B8\u002Bv4UKxuLcDxHLcocMSGfLcE9avstvF55huX6F8InlDmAiJZqH/H511v83Kyg6Tbw3p5HpbWCEvlUGsvE4TNPGJesEJGro4fJ7EnV/M\u002BUpeO18ebHHOa\u002BPcTXX\u002B9R69iYr7zA2ZFL2HDW8YHIuVxC0LcpLNQW0IvnpQeoOzUczpyAJrjhwPS\u002ByyjmztF3oR4\u002BPrF0OXoZRpuyLcOp/DROFS4in95PccRGAUlhICGSGNR3YWrPecyVn2BwIIOJXcVelb1N4QkfcB7z6iPpMeSsvTATKSSljkOZ40jrO1U2ViKNI7unkE2NYP\u002BOQxg28nHs1i6TQbBRhBry1j7KRld2LiWp6Tg2fBo79IwqnVuQMfbgNFVQoIXpv4HruiH5B/2bQrC0NC7svYKdA8M9O3liQBq0mIgq6Z1PHndjyYd0X4ZwPQqmDMykRYVJdcv8CXqVxHM1pnjKUOnt51AZ2EcKTfXxX4XjullulcwZ\u002Bv7WrfM/woR09WFsbKxXMt8WfHGG9lr1X0A3zRbq9boiLBaLELOzs7xIslar3Wm1Wjfo74jb9DfhXvDZ7wmfhFwu93JmZubMb26LvqkkBZzVAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-08-07T02:57:57.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "file_test.pro.user",
+              "DocumentMoniker": "D:\\QT_code\\file_test\\file_test.pro.user",
+              "RelativeDocumentMoniker": "file_test.pro.user",
+              "ToolTip": "D:\\QT_code\\file_test\\file_test.pro.user",
+              "RelativeToolTip": "file_test.pro.user",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-08-07T02:57:50.923Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

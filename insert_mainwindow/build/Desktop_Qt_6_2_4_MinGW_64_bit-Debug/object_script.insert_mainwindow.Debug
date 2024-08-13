@@ -1,0 +1,14 @@
+debug/insert_window.o
+debug/main.o
+debug/mainwindow.o
+debug/mytform.o
+debug/setheadlabeldialog.o
+debug/setitemdialog.o
+debug/tsizedialog.o
+debug/qrc_res.o
+debug/moc_insert_window.o
+debug/moc_mainwindow.o
+debug/moc_mytform.o
+debug/moc_setheadlabeldialog.o
+debug/moc_setitemdialog.o
+debug/moc_tsizedialog.o

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>image1/back-double.png</file>
+        <file>image1/copy-double.png</file>
+        <file>image1/down-double.png</file>
+        <file>image1/enter-double.png</file>
+        <file>image1/expand-line-2.png</file>
+        <file>image1/heart-double.png</file>
+        <file>image1/notice-double.png</file>
+        <file>image1/scan-double.png</file>
+        <file>image1/up-double.png</file>
+    </qresource>
+</RCC>

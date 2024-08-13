@@ -1,0 +1,14 @@
+release/insert_window.o
+release/main.o
+release/mainwindow.o
+release/mytform.o
+release/setheadlabeldialog.o
+release/setitemdialog.o
+release/tsizedialog.o
+release/qrc_res.o
+release/moc_insert_window.o
+release/moc_mainwindow.o
+release/moc_mytform.o
+release/moc_setheadlabeldialog.o
+release/moc_setitemdialog.o
+release/moc_tsizedialog.o

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>809</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="font">
+       <font>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="plainText">
+       <string> QDateTime current_time=QDateTime::currentDateTime(); 
+      //获取当前时间
+    QTime time_1(13,24,5);
+    //对应的构造函数 时-分-秒
+    QString str=time_1.toString(&quot;hh:mm:ss&quot;);
+    //转换成对应字符串的成员函数toString(const char* format) //对应格式
+    ui-&gt;timeEdit_time-&gt;setTime(current_time.time());
+    ui-&gt;dateEdit_data-&gt;setDate(current_time.date());
+    //通过其对象可以调用获得datatime-&gt;,data time ,datatime ,time-&gt;hour,mintus...
+    
+    //其对应的控件接受对应的类
+    //而lineedit 只接收QString类型的
+    ui-&gt;lineEdit_timedate-&gt;setText(current_time.toString(&quot;yyyy-MM-dd hh:mm:ss&quot;));
+
+    qDebug(&quot;Dtime1.time()=%s&quot;,str.toLocal8Bit().data()); //转换为Qbtyearry-&gt;data
+    Qstring -&gt;tolocal8bit-&gt;Qbtyearry
+
+     QString str=ui-&gt;calendarWidget-&gt;selectedDate().toString(&quot;yyyy年M月dd日&quot;);
+     //calendarWidget的属性,返回选择的Qdata 类似于value 
+</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>809</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_F">
+    <property name="title">
+     <string>文件（&amp;F）</string>
+    </property>
+    <addaction name="actFile_New"/>
+    <addaction name="separator"/>
+    <addaction name="actFile_open"/>
+    <addaction name="separator"/>
+    <addaction name="actFile_save"/>
+   </widget>
+   <widget class="QMenu" name="menu_E">
+    <property name="title">
+     <string>编辑（&amp;E）</string>
+    </property>
+    <addaction name="actFile_cut"/>
+    <addaction name="actedit_cancel"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_M">
+    <property name="title">
+     <string>格式（&amp;M）</string>
+    </property>
+    <addaction name="actformat_bold"/>
+   </widget>
+   <addaction name="menu_F"/>
+   <addaction name="menu_E"/>
+   <addaction name="menu_M"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actFile_New"/>
+   <addaction name="actFile_open"/>
+   <addaction name="actFile_save"/>
+   <addaction name="separator"/>
+   <addaction name="actFile_cut"/>
+   <addaction name="actedit_cancel"/>
+   <addaction name="separator"/>
+   <addaction name="actformat_bold"/>
+   <addaction name="separator"/>
+   <addaction name="actfont_zn"/>
+   <addaction name="actfont_en"/>
+   <addaction name="action_close"/>
+  </widget>
+  <action name="actFile_New">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/copy-double.png</normaloff>:/icon/image1/copy-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建</string>
+   </property>
+   <property name="toolTip">
+    <string>新建文件</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actFile_open">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/scan-double.png</normaloff>:/icon/image1/scan-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actFile_save">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/heart-double.png</normaloff>:/icon/image1/heart-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actFile_cut">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/enter-double.png</normaloff>:/icon/image1/enter-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>剪切</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actedit_cancel">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/expand-line-2.png</normaloff>:/icon/image1/expand-line-2.png</iconset>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actformat_bold">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/notice-double.png</normaloff>:/icon/image1/notice-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>粗体</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actfont_zn">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/down-double.png</normaloff>:/icon/image1/down-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>中文</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actfont_en">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icon/image1/up-double.png</normaloff>:/icon/image1/up-double.png</iconset>
+   </property>
+   <property name="text">
+    <string>英文</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="action_close">
+   <property name="text">
+    <string>关闭</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actFile_cut</sender>
+   <signal>triggered()</signal>
+   <receiver>plainTextEdit</receiver>
+   <slot>cut()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>335</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
